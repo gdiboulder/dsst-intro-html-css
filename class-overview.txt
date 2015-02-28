@@ -1,0 +1,146 @@
+Bitcamp slides:
+http://cara-jo.github.io/bitcamp
+https://github.com/cara-jo/bitcamp
+
+Intros 
+    Bree & Cojo:
+    * How we got started in coding/tech. 
+    * What we went to school for. 
+    * What we do now. 
+    Women in Tech 
+    * Why it's important for ladies to code
+    * Why it doesn't suck
+    * All the opportunities! 
+    GDI
+    * Why we're here
+    * What we do
+
+Overview
+    Agenda
+        Rough timeline of the day:
+        9:30 - 10:30 HTML
+        10:30 - 11:30 CSS
+        11:30 - Noon practice and more questions
+    Quick overview of files on computer
+
+HTML
+    * What is HTML
+    * What does it look like
+    * 2 second history
+
+    Open HTML file excersisee
+    Launch your text editor and open MyFirst.html
+    Launch Chrome and open MyFirst.html
+    Make some changes to the file and save it.
+    Reload the page in Chrome and see your changes!
+
+    It's boring - now what let's make it better
+
+    Introduce Markup
+
+    LET'S TAKE A LOOK AT SOME MARKUP
+    Open index.html with your text editor.
+    Take a look at the basic markup for a site.
+
+    Steal GDI tag breakdown Graphic
+
+    Order of Tag expalaination
+    1. html & body
+    2. p 
+    3. heading 
+    
+    Let's DEvelop it
+    Open up index.html in your text editor.
+    1. Start editing the markup already in place.
+    2. Add two paragraphs under the "About Me" section. 
+
+    More tag ex.
+    1. links
+    2. image
+
+    Let's Develop It
+    Navigate the existing links in the page and return
+    Add your own link in the middle of a paragraph or heading
+    Add one image between the About Me heading and the first paragraph
+
+BREAK for bathrooms 
+
+CSS
+    Quick overview
+    What does
+    What it looks like
+
+    Add the highlighted line below to your page.
+    Save the file and reload it in Chrome to see if anything changes.
+    <head>
+        <title>
+            My Home Page
+        </title>
+        
+        **<link rel="stylesheet" href="my-style.css">**
+        
+    </head>
+
+    Open up my-style.css and let's take a look at what's inside.
+
+    CSS Rule
+
+    CSS Styles
+    1. color
+    2. background-color (for headings/body)
+        (list of colors)
+    3. background-image
+    4. font-family
+        (cssfontstack.com)
+    5. font-size
+
+    Let's Develop It: TEXT STYLING PRACTICE
+    Experiment with at least three of the h1 properties
+    Add style rules for all headings and paragraph text
+    Change the body background colors
+
+
+11:30 - noon Extra Credit
+    Start with Lists
+        Lists of favorite things
+        Family members
+        Places you want to visit
+
+    Emphasis & Bold
+
+    Add images to lists
+
+    Use one of the images as a link
+
+    Add a background image to the body
+    Experiment with its other properties
+
+
+Example Files
+
+text.html (just text - no markup)
+markup.html (working file with sample codes)
+
+style.css (working file with sample codes)
+
+images
+4-5 of each category
+cats
+dogs
+landscapes (colorado)
+flowers (justin biebs / Tay-tay / Beeeeyonce)
+
+background (tiling! styling for backgrounds)
+flowers
+colors with texture
+fancy things
+industrial/metal/grunge
+
+
+
+
+
+
+
+
+
