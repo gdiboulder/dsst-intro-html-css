@@ -1,0 +1,30 @@
+/* =========================== Basic Text CSS Rules ============================= */
+
+/* Rules that apply to all elements on the page */
+
+body {
+    font-family: 'Georgia' serif;
+    background: url(pics/natfl032.jpeg);
+}
+
+
+/* Rules that apply across a specific element  */
+h1 {
+    color: white; 
+    background: teal; 
+    font-family: ‘Arial’, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: .75;
+    text-decoration: marquee;
+}
+
+h2 {
+    font-family: arial, sans-serif;
+    color: orange;
+}
+
+p {
+    color: magenta;
+}
