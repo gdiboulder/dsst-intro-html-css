@@ -18,7 +18,7 @@
 		<link rel="stylesheet" href="reveal/css/theme/simple.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+		<link rel="stylesheet" href="reveal/lib/css/light.css">
 
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
 		<script>
@@ -131,6 +131,142 @@
         </section>
   <!-- HTML Portion of the Workshop -->
 
+  <!-- Break -->
+  <section>
+  	<h2>Break</h2>
+  	<p>Let's take a quick break to stretch our legs.</p> 
+  </section>
+  <!-- CSS Portion of the workshop -->
+  <section>
+  	<h2>How do we make it look good?!</h2>
+  	<p>Our page isn't really fun to look at, so let's use CSS to make it pretty.</p>
+  	<ul>
+  		<li>CSS is a "style sheet language" that lets you style the elements on your page.</li>
+		<li>CSS is works in conjunction with HTML, but is not HTML itself.</li>
+	</ul>
+  </section>
+  <section>
+  	<h2>CSS: What can it do?</h2>
+    <p>All colored text, position, and size</p>
+    <img src="images/gdi-home.png" />
+  </section>
+  <section>
+	  <h2>CSS: What does it look like?</h2>
+	  <img src="images/homepage-css.png">
+	</section>
+	<section>
+        	<h2>Let's add some STYLE!</h2>
+        	<p>Add a link to your stylesheet </p>
+        	<p>Save the file and reload it in Chrome to see if anything changes.</p>
+<pre><code>&lt;head>
+	&lt;title>
+		My Home Page
+	&lt;/title&gt;
+	
+	ADD THIS LINE TO YOUR HTML PAGE:
+	&lt;link rel="stylesheet" href="style.css">
+	
+&lt;/head></code></pre>
+</section>
+<section>
+	<h2>CSS Overview</h2>
+	<p>Open up style.css and let's take a look at what's inside.</p>
+</section>
+<section>
+        <h2>The CSS Rule</h2>
+<pre><code class = "html">
+selector {
+  property: value;
+}
+</code></pre>
+            <p>A block of CSS code is a rule.</p>
+            <p>The rule starts with a selector.</p>
+            <p>It has sets of properties and values.</p>
+            <p>A property-value pair is a declaration.</p>
+        </section>
+        <section>
+          <h2>Color</h2>
+          <p>The color property changes the color of the text.</p>
+<pre><code class = "html">
+p {
+  color: red;
+}
+</code></pre>
+
+        </section>
+        
+        <!-- Background color-->
+        <section>
+          <h2>Background-color</h2>
+          <p>The background-color property changes the color of the background.</p>
+<pre><code class = "html">
+body {
+  background-color: black;
+}
+</code></pre>
+        </section>
+        <section>
+        	<h2>Standard CSS Colors</h2>
+        	<img src="images/csscolor.png" />
+        </section>
+        <section>
+          <h2>Background-image</h2>
+          <p>The background image property allows you to use any image as a background.</p>
+<pre><code class = "html">
+body {
+  background: url(images/imagename.jpg);
+}
+</code></pre>
+        </section>
+        <section>
+        	<h2>Let's Develop it!</h2>
+        	<p>Try changing the background color of your page by applying a new color to the <code>body</code>.</p>
+        	<p>Pick a photo from the images that starts with 'background', and see what happens when you add it to the <code>body</code></p>
+        </section>
+        <section>
+        	<h2>Practice Code</h2>
+<p><strong>Background Color</strong></p>
+<pre><code>
+body {
+	background: magenta;
+}</code></pre>
+<p><strong>Background Image</strong></p>
+<pre><code>
+body {
+	background: url(background6.jpg);
+}</code></pre>
+        </section>
+        <section>
+          <h2>Font-family</h2>
+          <p>The font-family property deﬁnes which font is used.</p>
+<pre><code class = "html">
+p {
+  font-family: "Times New Roman";
+  font-family: serif;
+  font-family: "Arial", sans-serif;
+}
+</code></pre>
+          <p>Specific font name</p>
+          <p>Generic name</p>
+          <p>Comma-separated list</p>
+        </section>
+        <section>
+          <h2>Font-size</h2>
+          <p>The font-size property speciﬁes the size of the font.</p>
+<pre><code class = "html">
+p {
+  font-size: 12px;
+}
+</code></pre>
+        </section>
+        <section>
+        	<h2>Text Styling Practice</h2>
+        	<ul>
+        		<li>Experiment with at least three of the h1 properties</li>
+        		<li>Add style rules for all headings and paragraph text</li>
+        		<li>Try changing the backgrounds of your headings and see what happens!</li>
+        	</ul>
+        </section>
 
 				
 				<section>
