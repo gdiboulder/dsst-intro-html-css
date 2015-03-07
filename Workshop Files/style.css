@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Georgia' serif;
-    background: url(pics/natfl032.jpeg);
+    background: url(background13.png);
 }
 
 
@@ -16,8 +16,7 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    line-height: .75;
-    text-decoration: marquee;
+    line-height: 50px;
 }
 
 h2 {
